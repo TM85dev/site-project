@@ -23,15 +23,13 @@
             </div>
           </a>
         </div>
-        <div class="col">
-          <span class="show-animation">
+        <div class="col show-animation">
             <Services
               v-show="item.visible"
               v-for="item in data"
               :key="item.id"
               :data="servicesData[item.id]"
             />
-          </span>
         </div>
       </div>
     </div>
