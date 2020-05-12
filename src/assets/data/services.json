@@ -1,0 +1,87 @@
+[
+    {
+        "id": 0,
+        "className": "responsywna-strona-internetowa",
+        "titleA": "Responsywna",
+        "titleB": "strona internetowa",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "beforeList": "Lorem ipsum dolor sit amet, consectetur adipiscing elit:",
+        "listItems": [
+            "Lorem ipsum dolor sit amet",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            "sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ],
+        "afterList": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "id": 1,
+        "className": "strony-seo-friendly",
+        "titleA": "Strony",
+        "titleB": "'SEO' Friendly",
+        "subTitle": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "beforeList": "Lorem ipsum dolor sit amet, consectetur adipiscing elit:",
+        "listItems": [
+            "sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            "sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "Lorem ipsum dolor sit amet",
+            "sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ],
+        "afterList": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "id": 2,
+        "className": "spersonalizowany-projekt-strony",
+        "titleA": "Spersonalizowany",
+        "titleB": "projekt strony",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "beforeList": "Lorem ipsum dolor sit amet, consectetur adipiscing elit:",
+        "listItems": [
+            "sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        ],
+        "afterList": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "id": 3,
+        "className": "najnowsze-technologie-webowe",
+        "titleA": "Najnowsze",
+        "titleB": "technologie webowe",
+        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "beforeList": "Lorem ipsum dolor sit amet, consectetur adipiscing elit:",
+        "listItems": [
+            "sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        ],
+        "afterList": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "id": 4,
+        "className": "pomoc-i-wsparcie",
+        "titleA": "Pomoc",
+        "titleB": "i wsparcie",
+        "subTitle": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "beforeList": "Lorem ipsum dolor sit amet, consectetur adipiscing elit:",
+        "listItems": [
+            "sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            "sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        ],
+        "afterList": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "id": 5,
+        "className": "dodatkowe-uslugi-dla-stron",
+        "titleA": "Dodatkowe",
+        "titleB": "usługi dla stron",
+        "subTitle": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "beforeList": "Lorem ipsum dolor sit amet, consectetur elit:",
+        "listItems": [
+            "sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            "officia deserunt mollit anim id est laborum"
+        ],
+        "afterList": "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+]

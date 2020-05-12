@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "responsywna strona internetowa",
+        "title1": "Responsywna",
+        "title2": "strona internetowa",
+        "visible": true
+    },
+    {
+        "id": 1,
+        "name": "strony seo friendly",
+        "title1": "Strony",
+        "title2": "'SEO' Friendly",
+        "visible": false
+    },
+    {
+        "id": 2,
+        "name": "spersonalizowany projekt strony",
+        "title1": "Spersonalizowany",
+        "title2": "projekt strony",
+        "visible": false
+    },
+    {
+        "id": 3,
+        "name": "najnowsze technologie webowe",
+        "title1": "Najnowsze",
+        "title2": "technologie webowe",
+        "visible": false
+    },
+    {
+        "id": 4,
+        "name": "pomoc i wsparcie",
+        "title1": "Pomoc",
+        "title2": "i wsparcie",
+        "visible": false
+    },
+    {
+        "id": 5,
+        "name": "dodatkowe uslugi dla stron",
+        "title1": "Dodatkowe",
+        "title2": "usługi dla stron",
+        "visible": false
+    }
+]

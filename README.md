@@ -1,4 +1,4 @@
-# strony.slupsk.pl
+# strony.site.pl
 
 ## Project setup
 ```

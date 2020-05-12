@@ -1,32 +1,47 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <TopMenu />
     <router-view />
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@font-face {
+  font-family: "Comfortaa";
+  src: url("./assets/fonts/Comfortaa-Regular.ttf") format("truetype");
 }
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+@font-face {
+  font-family: "ComfortaaBold";
+  src: url("./assets/fonts/Comfortaa-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cooper";
+  src: url("./assets/fonts/Cooper Black Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CooperBold";
+  src: url("./assets/fonts/Cooper Std Black.ttf") format("truetype");
+}
+#app {
+  font-family: "Comfortaa";
+  strong {
+    font-family: "ComfortaaBold";
   }
 }
+body {
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
 </style>
+
+<script>
+import TopMenu from "@/components/TopMenu.vue";
+export default {
+  components: {
+    TopMenu
+  }
+};
+</script>
