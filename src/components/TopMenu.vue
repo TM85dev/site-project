@@ -181,12 +181,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$transparent-white: rgba(255, 255, 255, 0.3);
 nav {
   width: 100%;
   height: 100px;
-  box-shadow: 1px 1px 4px 1px rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 4px 1px $transparent-white;
   display: flex;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: $transparent-white;
   position: fixed;
   top: 0px;
   z-index: 3;

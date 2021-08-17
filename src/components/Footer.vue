@@ -44,6 +44,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$bg-image: url("../assets/footer.png");
+$gray-color: rgb(151, 151, 151);
+$transparent-black: rgba(0, 0, 0, 0.1);
 .logo {
   margin: calc(40px + 4vw) 0 calc(0px + 2vw) 0;
 
@@ -68,13 +71,13 @@ export default {
 }
 .copyright {
   margin: 40px 0;
-  color: rgb(151, 151, 151);
+  color: $gray-color;
 }
 hr {
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-top: 2px solid $transparent-black;
 }
 footer {
-  background-image: url("../assets/footer.png");
+  background-image: $bg-image;
   background-size: calc(500px + 26vw);
   background-repeat: no-repeat;
   background-position: center bottom;

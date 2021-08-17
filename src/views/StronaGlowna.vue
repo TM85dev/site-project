@@ -150,8 +150,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$bg-image: url("../assets/home.jpg");
 .home {
-  background-image: url("../assets/home.jpg");
+  background-image: $bg-image;
   background-size: cover;
   background-position: center;
   width: 100%;

@@ -53,6 +53,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@mixin block {
+  display: flex;
+  flex-direction: column;
+  div {
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    width: calc(30px + 1vw);
+    height: calc(30px + 1vw);
+    line-height: calc(30px + 1vw);
+  }
+}
 .container {
   font-size: calc(10px + 0.36vw);
   background-color: white;
@@ -73,37 +86,19 @@ export default {
         }
       }
       &:nth-of-type(2) {
-        display: flex;
+        @include block;
         border-right: 1px solid red;
-        flex-direction: column;
         justify-content: space-between;
         div {
-          font-size: 20px;
-          font-weight: bolder;
-          background-color: red;
-          color: white;
-          width: calc(30px + 1vw);
-          height: calc(30px + 1vw);
-          line-height: calc(30px + 1vw);
           &:last-of-type {
             opacity: 0;
           }
         }
       }
       &:nth-of-type(3) {
-        display: flex;
+        @include block;
         border-left: 1px solid red;
-        flex-direction: column;
         justify-content: space-around;
-        div {
-          font-size: 20px;
-          font-weight: bolder;
-          background-color: red;
-          color: white;
-          width: calc(30px + 1vw);
-          height: calc(30px + 1vw);
-          line-height: calc(30px + 1vw);
-        }
       }
       &:last-of-type {
         padding-left: 10px;

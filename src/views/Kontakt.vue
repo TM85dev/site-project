@@ -258,6 +258,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@mixin input($height, $width, $min-width) {
+  height: $height;
+  width: $width;
+  min-width: $min-width;
+  box-shadow: 0 0 100px 0 whitesmoke;
+}
+@mixin input-toggle($animation, $translateY, $cursor, $color) {
+  animation: $animation 1 0.3s ease-in;
+  transform: translateY($translateY);
+  cursor: $cursor;
+  color: $color;
+}
 .kontakt {
   margin-top: 160px;
 }
@@ -323,16 +335,10 @@ form {
       font-size: 14px;
     }
     input {
-      height: 50px;
-      width: 40vw;
-      min-width: 260px;
-      box-shadow: 0 0 100px 0 whitesmoke;
+      @include input(50px, 40vw, 260px);
     }
     textarea {
-      height: 160px;
-      width: 60vw;
-      min-width: 320px;
-      box-shadow: 0 0 100px 0 whitesmoke;
+      @include input(160px, 60vw, 320px);
     }
   }
   button {
@@ -348,16 +354,10 @@ strong {
   animation: show-error 1 0.3s ease-out;
 }
 .focus-input {
-  animation: focus 1 0.3s ease-in;
-  transform: translateY(-38px);
-  cursor: default;
-  color: black;
+  @include input-toggle(focus, -38px, default, black);
 }
 .blur-input {
-  animation: blur 1 0.3s ease-in;
-  transform: translateY(0px);
-  cursor: text;
-  color: gray;
+  @include input-toggle(blur, 0px, text, gray);
 }
 @keyframes focus {
   from {

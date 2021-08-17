@@ -4,28 +4,6 @@
   </div>
 </template>
 
-<style lang="scss">
-.button-back {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: rgba(250, 0, 0, 0.7);
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 4px 1px silver;
-  cursor: pointer;
-  display: none;
-  z-index: 1;
-
-  img {
-    transform: rotate(180deg);
-    filter: brightness(600%);
-    width: 50px;
-    height: 40px;
-  }
-}
-</style>
-
 <script>
 import $ from "jquery";
 export default {
@@ -46,3 +24,26 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+$transparent-red: rgba(250, 0, 0, 0.7);
+.button-back {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: $transparent-red;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 1px silver;
+  cursor: pointer;
+  display: none;
+  z-index: 1;
+
+  img {
+    transform: rotate(180deg);
+    filter: brightness(600%);
+    width: 50px;
+    height: 40px;
+  }
+}
+</style>

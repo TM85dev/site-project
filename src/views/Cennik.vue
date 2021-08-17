@@ -119,6 +119,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$gray: #898989;
 .cennik {
   margin-top: 160px;
 }
@@ -147,7 +148,7 @@ export default {
 
   & > div {
     border: 2px solid black;
-    box-shadow: 0px 10px 20px 10px #898989;
+    box-shadow: 0px 10px 20px 10px $gray;
     border-radius: 50px;
     padding: 0px 30px 50px;
 
@@ -156,7 +157,7 @@ export default {
       background-color: #ebecec;
     }
     &:nth-of-type(2) {
-      background-color: #898989;
+      background-color: $gray;
       z-index: 1;
       margin: 0 -26px;
       padding: 0px 40px 50px;

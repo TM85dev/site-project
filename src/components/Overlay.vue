@@ -187,6 +187,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$transparent-black: rgba(0, 0, 0, 0.8);
 #overlay {
   position: fixed;
   top: 0px;
@@ -195,7 +196,7 @@ export default {
   height: 100vh;
   display: none;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: $transparent-black;
 
   & > div {
     margin-top: 100px;
