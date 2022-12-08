@@ -1,24 +1,15 @@
-# agency site
+# Agency Site
+
+### Information about project
+Project of website for advertising agency.
+Created with:
+1. Bootstrap.
+2. Vue.
+3. SASS.
+4. animejs.
+See package.json for more information.
 
 ## Project setup
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
